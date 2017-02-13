@@ -1,0 +1,14 @@
+div {
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coin {
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+    border: blue solid 2px;
+    background: darkblue;
+}
