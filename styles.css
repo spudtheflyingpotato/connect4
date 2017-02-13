@@ -1,3 +1,16 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    font-weight: lighter;
+}
+
 div {
     height: 900px;
     display: flex;
@@ -9,6 +22,20 @@ div {
     border-radius: 50px;
     height: 80px;
     width: 80px;
+    position: absolute;
+   
+}
+
+.blue {
+    top: 100px;
+    left: 100px;
     border: blue solid 2px;
     background: darkblue;
+}
+
+.red {
+    top: 100px;
+    right: 100px;
+    border: red solid 2px;
+    background: darkred;
 }
