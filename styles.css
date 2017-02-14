@@ -1,17 +1,29 @@
+.info {
+    width: 100%
+}
+
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-family: "Circular Pro";
+    font-size: 40px;
     text-align: center;
+    padding-top: 100px;
 }
 
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-family: Cambria;
+    font-size: 25px;
     text-align: center;
     font-weight: lighter;
 }
 
-div {
+h3 {
+    font-family: Cambria;
+    font-size: 14;
+    text-align: center;
+    font-weight: lighter;
+    }
+
+.board {
     height: 900px;
     display: flex;
     justify-content: center;
